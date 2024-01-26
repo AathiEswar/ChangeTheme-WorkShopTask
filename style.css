@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100wh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-select{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    font-size: 20px;
+}
+
+select::-ms-expand {
+    display: none;
+  }
+
+  select {
+    /* for Firefox */
+    appearance: none;
+    /* for Chrome */
+    -webkit-appearance: button;
+  }
+  
+.click-me{
+    
+    display: f;
+    width: 200px;
+    align-items: center;
+}
+
+option{
+    /* color: rgb(106, 106, 106); */
+    font-size: 25px;
+   
+}
+
+select:focus{
+
+    outline: none;
+}
+
+select{
+    text-align: center;
+    border: 1px solid rgb(212, 212, 212);
+    
+}
